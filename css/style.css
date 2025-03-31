@@ -19,8 +19,8 @@
 
 body {
     background-color: var(--green);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 /******************************  Score-board styling  *************************************/
@@ -30,7 +30,7 @@ body {
     border-radius: 13px;
     width: 800px;
     height: 158px;
-    margin: 10vh auto;
+    margin: 5vh auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
