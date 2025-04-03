@@ -277,7 +277,7 @@ body {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--white);
     color: var(--green);
 }
@@ -393,7 +393,7 @@ body {
         letter-spacing: 0.1rem;
     }
 
-    & button:hover{
+    & button:hover {
         background-color: #e3e3e3;
         transform: scale(1.1);
     }
@@ -646,6 +646,14 @@ body {
     100% {
         transform: scale(1);
     }
+/* 
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    } */
 }
 
 @media (max-width: 1000px) {
